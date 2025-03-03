@@ -1,21 +1,11 @@
-import { initializeApp } from "firebase/app"
-import { getFirestore } from "firebase/firestore"
-import { getAuth } from "firebase/auth"
-
-// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-}
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig)
-const db = getFirestore(app)
-const auth = getAuth(app)
-
-export { db, auth }
+  apiKey: "AIzaSyDDjpP16Yhzt07eOlpKmOa7ehTle7gMasc",
+  authDomain: "lexeralife-game.firebaseapp.com",
+  projectId: "lexeralife-game",
+  storageBucket: "lexeralife-game.firebasestorage.app",
+  messagingSenderId: "584803756633",
+  appId: "1:584803756633:web:f7669987a7a1edddcadf48",
+  measurementId: "G-Q69P5H1F76"
+};
 
